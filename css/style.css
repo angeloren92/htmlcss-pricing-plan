@@ -24,14 +24,23 @@ body {
 /* containers */
 .main-container {
     max-width: 1400px;
-    min-width: 640px;
+    min-width: 400px;
     margin: 0 auto;
     padding: 0 30px;
 }
 
+.main-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+}
+
 .card-box {
-    max-width: 466px;
-    padding: 60px;
+    flex: calc(100% / 3 - (30px * 2) / 3) 1 1;
+    flex-shrink: 0;
+    min-width: 420px;
+    padding: 40px;
     box-shadow: 0 0 20px var(--text-grey);
     border-radius: 30px;
     display: flex;
