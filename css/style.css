@@ -54,7 +54,7 @@ body {
 }
 
 .bg-white {
-    background-color: white;
+    background-color: var(--white);
 }
 
 .text-purple {
@@ -141,6 +141,13 @@ body {
     text-align: left;
     font-size: 1.4rem;
     line-height: 3;
+    display: flex;
+    flex-wrap: wrap;
+
+    li {
+        flex: calc(100% / 2) 1 1;
+        min-width: 400px;
+    }
     
     .bi {
         padding-right: 10px;
