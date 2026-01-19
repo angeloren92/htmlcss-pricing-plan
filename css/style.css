@@ -10,15 +10,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, sans-serif;
 }
 
 /* main sections */
 body {
-    border: 1px dashed red;
+    border: 1px dashed var(--purple);
 }
 
 /* containers */
 .main-container {
     max-width: 1400px;
     min-width: 640px;
+    margin: 0 auto;
+}
+
+/* header */
+.header-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 180px;
+
+    .title h1 {
+        font-size: 3rem;
+    }
+
+    .title p {
+        color: var(--text-grey);
+        font-size: 1rem;
+    }
+
+    .switch-box {
+
+
+    }
+
 }
