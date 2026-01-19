@@ -1,0 +1,24 @@
+/* root */
+:root {
+    --purple: #6500ff;
+    --grey-btn: #e3e3e3;
+    --text-grey: #bec0bd;
+}
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main sections */
+body {
+    border: 1px dashed red;
+}
+
+/* containers */
+.main-container {
+    max-width: 1400px;
+    min-width: 640px;
+}
