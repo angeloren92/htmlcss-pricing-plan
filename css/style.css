@@ -29,7 +29,12 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    
+}
+.subscription-box {
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+    gap: 15px;
 }
 
 .card-box {
@@ -82,13 +87,10 @@
         color: var(--grey);
         font-size: 1rem;
     }
-}
 
-.subscription {
-    display: flex;
-    flex-grow: 1;
-    justify-content: end;
-    gap: 15px;
+    .subscription-box > h2 {
+        font-size: 1rem;
+    }
 }
 
 .switch-box {
